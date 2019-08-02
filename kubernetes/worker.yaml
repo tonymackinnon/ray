@@ -4,7 +4,7 @@ metadata:
   name: ray-worker
   namespace: dev
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       component: ray-worker
@@ -37,4 +37,4 @@ spec:
                   fieldPath: status.podIP
           resources:
             requests:
-              cpu: 2
+              cpu: 1
