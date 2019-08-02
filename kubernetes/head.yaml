@@ -68,6 +68,6 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: status.podIP
-          resources:
-            requests:
-              cpu: 1
+#           resources:
+#             requests:
+#               cpu: 1
